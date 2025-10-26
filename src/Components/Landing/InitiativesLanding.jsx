@@ -29,7 +29,7 @@ const Card = ({ title, imageUrl }) => {
   );
 };
 
-const Initiatives = () => {
+const InitiativesLanding = () => {
   return (
     <section className="initiatives-section">
       <div className="initiatives-header">
