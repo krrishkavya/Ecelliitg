@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #ECEAF4;
+}
+#my-team-title{
+  font-family: "Instrument Sans";
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+#my-team-desc{
+  color: rgba(236, 234, 244, 0.80);
+  font-family: "Instrument Sans";
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 2.25rem */
+  letter-spacing: -0.045rem;
+  margin-bottom: 100px;
+}
+#my-team-cards{
+  margin: auto;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
