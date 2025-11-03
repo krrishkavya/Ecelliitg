@@ -2,6 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import "./influenceLanding.css";
+import InfluenceLanding from "../Components/Landing/influenceLanding";
+
+// Inside the Landing function’s return:
+<>
+  {/* other existing sections */}
+  <InfluenceLanding />
+</>
 
 const InfluenceLanding = () => {
   const titans = Array(12).fill("/images/titan-placeholder.png"); // replace with your real image paths
@@ -53,3 +60,4 @@ const InfluenceLanding = () => {
 };
 
 export default InfluenceLanding;
+
