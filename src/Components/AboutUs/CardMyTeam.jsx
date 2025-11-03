@@ -1,4 +1,4 @@
-import linkedin from '../../assets/linkedin'
+import linkedin from '../../assets/linkedin.png'
 import call from '../../assets/call.png'
 import mail from '../../assets/mail.png'
 import './cardMyTeam.css'

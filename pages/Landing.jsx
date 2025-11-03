@@ -1,7 +1,7 @@
 import React from "react";
 import CompaniesLanding from "../src/Components/Landing/CompaniesLanding";
 import InitiativesLanding from "../src/Components/Landing/InitiativesLanding";
-import HeroLanding from "../src/Components/Landing/herolanding";
+import HeroLanding from "../src/Components/Landing/HeroLanding";
 
 
 export default function Landing(){

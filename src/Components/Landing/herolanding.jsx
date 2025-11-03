@@ -1,13 +1,13 @@
 import React from "react";
-import "./Hero Landing.css";
-import hero1 from "./assets/Image1.jpg";
-import hero2 from "./assets/Image2.jpg";
-import hero3 from "./assets/Image3.jpg";
-import hero4 from "./assets/Group 263.jpg";
-import grd1 from "./assets/Rectangle 230.png";
-import grd2 from "./assets/Rectangle 231.png";
-import grd3 from "./assets/Rectangle 231.png";
-import grd4 from "./assets/Rectangle 231.png";
+import "./herolanding.css";
+import hero1 from "../../assets/Image1.jpg";
+import hero2 from "../../assets/Image2.jpg";
+import hero3 from "../../assets/Image3.jpg";
+import hero4 from "../../assets/Group 263.jpg";
+import grd1 from "../../assets/Rectangle 230.png";
+import grd2 from "../../assets/Rectangle 231.png";
+import grd3 from "../../assets/Rectangle 231.png";
+import grd4 from "../../assets/Rectangle 231.png";
 
 const Hero = () => {
   return (
