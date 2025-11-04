@@ -1,9 +1,11 @@
 import React from "react";
 import AlumList from "../src/Components/AboutUs/OurAlums/AlumList";
+import TeamsLanding from "../src/Components/AboutUs/TeamsLanding";
 
 export default function AboutUs(){
     return (
         <div className="AboutUs">
+            <TeamsLanding />
             <AlumList />
         </div>
     )
