@@ -1,7 +1,7 @@
 import React from "react";
 import alums from "./data.jsx";
 import AlumCard from "./AlumCard.jsx";
-import "./styles.css";
+import "./OurAlums.css";
 
 const AlumList = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import "./styles.css";
+import "./OurAlums.css";
 
 const AlumCard = ({ name, image, linkedin }) => {
   return (
