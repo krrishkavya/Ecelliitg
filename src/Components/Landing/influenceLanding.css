@@ -1,0 +1,133 @@
+:root {
+  --bg-dark: #0b0b12;
+  --text-white: #ffffff;
+  --text-gray: #b5b5b5;
+  --highlight: #bca4ff;
+}
+
+.influence-wrapper {
+  background: var(--bg-dark);
+  color: var(--text-white);
+  text-align: center;
+  padding: 5rem 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --- Header --- */
+.influence-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+}
+.highlight {
+  color: var(--highlight);
+}
+
+/* --- Titan Grid --- */
+.titans-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.titan-card {
+  background: #12121a;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.titan-card:hover {
+  transform: translateY(-8px);
+}
+
+.titan-card img {
+  width: 100%;
+  max-width: 160px;
+  border-radius: 0.8rem;
+  display: block;
+}
+
+/* --- "and many more..." --- */
+.and-more {
+  color: var(--text-gray);
+  font-size: 1rem;
+  margin: 2rem 0 4rem;
+}
+
+/* --- Sponsors Section --- */
+.sponsor-section {
+  text-align: center;
+}
+
+.sponsor-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.thanks-text {
+  color: var(--text-gray);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+/* --- Sponsor Logos --- */
+.sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  background: #141421;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+}
+
+.sponsor-card {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-card img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: 0.3s ease;
+}
+
+.sponsor-card img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* --- Responsive --- */
+@media (max-width: 992px) {
+  .titans-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .titans-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .influence-header h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .titans-grid {
+    grid-template-columns: 1fr;
+  }
+}
