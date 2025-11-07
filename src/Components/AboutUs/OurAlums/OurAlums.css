@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Instrument Sans", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #0F0F0F;
+}
+
+.alum-card {
+  border-radius: 8px;
+  width: 330px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.alum-name{
+  font-weight: 500;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.alum-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.alum-info {
+  background-color: #d8e3fd;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+}
+
+.alum-list {
+  padding-top: 1vw;
+}
+
+.alum-list h1 {
+  color: white;
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 500;
+}
+
+.alum-list h4 {
+  padding-top: 1vw;
+  color: white;
+  font-size: clamp(20px, 4vw, 36px);
+  font-weight: 400;
+}
+
+.alum-grid-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.alum-grid {
+  padding-top: 5vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 6vw;
+  width: 80%;           
+  max-width: 1200px;
+  box-sizing: border-box;
+}
