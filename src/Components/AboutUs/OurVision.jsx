@@ -2,13 +2,13 @@ import React from "react";
 import { ReactComponent as Star } from "../../assets/star.svg";
 import { ReactComponent as Rocket} from "../../assets/rocket.svg";
 import { ReactComponent as Globe } from "../../assets/globe.svg";
-import { ReactComponent as Group } from ".../../assets/group.svg";
+import { ReactComponent as Group } from "../../assets/group.svg";
 import { ReactComponent as Bullet } from "../../assets/bullet.svg";
 
 
 import "./our_vision.css";
 
-export default function VisionSection() {
+export default function OurVision() {
   const Connector = () => (
     <div className="connector-group">
       <svg xmlns="http://www.w3.org/2000/svg" width="1" height="52" viewBox="0 0 1 52" fill="none">

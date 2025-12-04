@@ -1,11 +1,11 @@
 import React from "react";
 import TeamsLanding from "../src/Components/AboutUs/TeamsLanding";
-import our_vision from "../src/Components/AboutUs/our_vision.js";
+import OurVision from "../src/Components/AboutUs/OurVision.jsx";
 export default function AboutUs(){
     return (
         <div className="AboutUs">
             <TeamsLanding />
-            <our_vision/>
+            <OurVision />
         </div>
     )
 }
