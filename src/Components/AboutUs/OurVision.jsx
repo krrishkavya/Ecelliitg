@@ -1,10 +1,10 @@
 import React from "react";
-import { ReactComponent as Star } from "../../assets/star.svg";
-import { ReactComponent as Rocket} from "../../assets/rocket.svg";
-import { ReactComponent as Globe } from "../../assets/globe.svg";
-import { ReactComponent as Group } from "../../assets/group.svg";
-import { ReactComponent as Bullet } from "../../assets/bullet.svg";
-
+// 1. Change imports to default imports (which gives the URL string)
+import Star from "../../assets/star.svg";
+import Rocket from "../../assets/rocket.svg";
+import Globe from "../../assets/globe.svg";
+import Group from "../../assets/group.svg";
+import Bullet from "../../assets/bullet.svg";
 
 import "./our_vision.css";
 
@@ -31,7 +31,8 @@ export default function OurVision() {
             ideal time to step up and shape the future.
           </p>
           <div className="star-icon" aria-hidden>
-            <Star size={20} />
+            {/* 2. Use <img> tags instead of Components */}
+            <img src={Star} alt="Star" style={{ width: '20px', height: '20px' }} />
           </div>
         </div>
 
@@ -43,7 +44,7 @@ export default function OurVision() {
             be explored.
           </p>
           <div className="rocket-icon" aria-hidden>
-            <Rocket size={20} />
+            <img src={Rocket} alt="Rocket" style={{ width: '20px', height: '20px' }} />
           </div>
         </div>
 
@@ -55,7 +56,7 @@ export default function OurVision() {
             the IITG community and across the youth of North-East India.
           </p>
           <div className="group-icon" aria-hidden>
-            <Group size={20} />
+            <img src={Group} alt="Group" style={{ width: '20px', height: '20px' }} />
           </div>
         </div>
 
@@ -63,11 +64,11 @@ export default function OurVision() {
 
         <div className="vision-box fourth-box">
           <div className="bullet-icon">
-            <Bullet size ={20}/>
+            <img src={Bullet} alt="Bullet" style={{ width: '20px', height: '20px' }} />
           </div>
-          <p className="to-achieve-text">
+          <div className="to-achieve-text">
             <p>To achieve this, we:</p>
-          </p>
+          </div>
           <ul>
             <li>Host a wide range of initiatives and events.</li>
             <li>Offer a comprehensive and hands-on learning experience.</li>
@@ -78,7 +79,7 @@ export default function OurVision() {
           </ul>
 
           <div className="globe-icon" aria-hidden>
-            <Globe size={20} />
+            <img src={Globe} alt="Globe" style={{ width: '20px', height: '20px' }} />
           </div>
         </div>
       </div>

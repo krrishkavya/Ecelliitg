@@ -7,10 +7,9 @@ import HeroLanding from "../src/Components/Landing/HeroLanding.jsx";
 export default function Landing(){
     return (
         <div className="Landing">
-            <CompaniesLanding />
-            <InitiativesLanding />
             <HeroLanding />
-           
+            <InitiativesLanding />
+            <CompaniesLanding />
         </div>
     )
 }
