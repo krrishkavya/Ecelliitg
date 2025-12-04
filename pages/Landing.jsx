@@ -9,7 +9,7 @@ export default function Landing(){
         <div className="Landing">
             <CompaniesLanding />
             <InitiativesLanding />
-            <HeroLanding/>
+            <HeroLanding />
            
         </div>
     )
