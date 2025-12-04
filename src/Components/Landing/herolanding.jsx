@@ -9,7 +9,7 @@ import grd2 from "../../assets/Rectangle 231.png";
 import grd3 from "../../assets/Rectangle 231.png";
 import grd4 from "../../assets/Rectangle 231.png";
 
-const Hero = () => {
+const HeroLanding = () => {
   return (
     <section className="hero-section">
       <div className="hero-container">
@@ -62,4 +62,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroLanding;

@@ -32,7 +32,7 @@ function App() {
       name = "Rishi Agarwal"
       post = "Secretary"
       />
-      <cardMyTeam 
+      <CardMyTeam 
       linkUrl ="//www.youtube.com/watch?v=xvFZjo5PgG0.com/playlist?list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-"
       phn_url ="https://www.caciitg.com/"
       mail_url = "https://static.toiimg.com/thumb/msid-86114422,width-400,resizemode-4/86114422.jpg"

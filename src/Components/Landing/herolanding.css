@@ -312,18 +312,20 @@ overflow: hidden;
 }
 
 .hero-title {
- color: #ECEAF4;
+  color: #ECEAF4;
+  font-family: "Instrument Sans";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; 
+  text-transform: uppercase;
+}
+
 .my-element {
   text-box-trim: trim-both;
   text-box-edge: cap alphabetic;
 }
-font-family: "Instrument Sans";
-font-size: 52px;
-font-style: normal;
-font-weight: 500;
-line-height: 100%; 
-text-transform: uppercase;
-}
+
 
 .hero-title span {
   color: #5c35f7;
