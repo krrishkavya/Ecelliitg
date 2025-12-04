@@ -1,4 +1,4 @@
-import demoimage from "../../../assets/demoimage.jpg";
+import demoimage from "../../assets/demoimage.jpg";
 const alums = [
   {
     id: 1,
