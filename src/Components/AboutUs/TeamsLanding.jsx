@@ -2,7 +2,7 @@ import './teamsLanding.css'
 import secy from "../../assets/ecell_secy.png"
 import CardMyTeam from './CardMyTeam'
 
-function App() {
+function TeamsLanding() {
   return (
     <>
     <div id="my-team-title">MEET THE TEAM</div>
