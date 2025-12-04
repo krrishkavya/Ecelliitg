@@ -1,17 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-
 import "./influenceLanding.css";
-import InfluenceLanding from "../Components/Landing/influenceLanding";
-
-// Inside the Landing function’s return:
-<>
-  {/* other existing sections */}
-  <InfluenceLanding />
-</>
 
 const InfluenceLanding = () => {
-  const titans = Array(12).fill("/images/titan-placeholder.png"); // replace with your real image paths
+  const titans = Array(12).fill("/images/titan-placeholder.png"); 
   const sponsors = Array(8).fill("/images/ctrls-logo.png");
 
   return (
@@ -22,22 +14,22 @@ const InfluenceLanding = () => {
         </h2>
       </div>
 
-     <div className="titans-grid">
-  {titans.map((img, index) => (
-    <motion.div
-      className="titan-card"
-      key={index}
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.4, delay: index * 0.05 }}
-      viewport={{ once: true }}
-    >
-      <img src={img} alt={`Titan ${index + 1}`} />
-    </motion.div>
-  ))}
-</div>
+      <div className="titans-grid">
+        {titans.map((img, index) => (
+          <motion.div
+            className="titan-card"
+            key={index}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: index * 0.05 }}
+            viewport={{ once: true }}
+          >
+            <img src={img} alt={`Titan ${index + 1}`} />
+          </motion.div>
+        ))}
+      </div>
 
       <p className="and-more">and many more...</p>
 
@@ -60,4 +52,3 @@ const InfluenceLanding = () => {
 };
 
 export default InfluenceLanding;
-
