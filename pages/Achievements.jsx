@@ -4,7 +4,7 @@ import AchievementsHeaderLast from "../src/Components/Achievements/AchievementsH
 import AchievementCarousel from "../src/Components/Achievements/AchievementCarousel";
 import "../src/Components/Achievements/achievement.css";
 
-export default function App() {
+export default function Achievements() {
   return (
     <div>
       <AchievementPage/>
